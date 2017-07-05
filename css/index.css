@@ -1,0 +1,1007 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    /*line-height: 0;*/
+}
+
+html, body, .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.musiclogo {
+    background:url(../images/music.svg);
+    background-size:cover;
+    width: .38rem;
+    height:.38rem;
+    border-radius:50%;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    cursor: pointer;
+    z-index:999;
+    -moz-animation: yy 5s linear infinite;
+    -o-animation: yy 5s linear infinite;
+    -webkit-animation: yy 5s linear infinite;
+    animation: yy 5s linear infinite;
+
+}
+
+.addm {
+    -moz-animation: ani_2 5s linear infinite both;
+    -o-animation: ani_2 5s linear infinite both;
+    -webkit-animation: ani_2 5s linear infinite both;
+    animation: ani_2 5s linear infinite both;
+}
+
+.sa {
+    -moz-transition: transform 1s linear;
+    -o-transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+    transition: transform 1s linear;
+}
+
+.up {
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.down {
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.container {
+    position: relative;
+}
+
+    .container > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/bg.png) center center no-repeat;
+        background-size: cover;
+    }
+
+        .container > div > img {
+            position: absolute;
+        }
+
+.page1 img:first-of-type {
+    top: 2%;
+    left: 20.3125%;
+    width: 59.375%;
+    height: auto;
+    -moz-animation: ani_1 0.7s linear both,ani_2 4s 1s linear infinite;
+    -o-animation: ani_1 0.7s linear both,ani_2 4s 1s linear infinite;
+    -webkit-animation: ani_1 0.7s linear both,ani_2 4s 1s linear infinite;
+    animation: ani_1 0.7s linear both,ani_2 4s 1s linear infinite;
+}
+
+.page1 img:nth-of-type(2) {
+    top: 20%;
+    left: 32.03125%;
+    width: 35.9357%;
+    height: auto;
+    -moz-animation: ani_1 0.4s 0.7s linear both,ani_3 0.4s 0.7s linear both;
+    -o-animation: ani_1 0.4s 0.7s linear both,ani_3 0.4s 0.7s linear both;
+    -webkit-animation: ani_1 0.4s 0.7s linear both,ani_3 0.4s 0.7s linear both;
+    animation: ani_1 0.4s 0.7s linear both,ani_3 0.4s 0.7s linear both;
+    opacity: 0;
+}
+
+.page1 img:nth-of-type(3) {
+    width: 45.9375%;
+    height: auto;
+    top: 16.7%;
+    left: 27.03125%;
+    -moz-animation: ani_1 0.4s 1.1s linear both,ani_3 0.4s 1.1s linear both;
+    -o-animation: ani_1 0.4s 1.1s linear both,ani_3 0.4s 1.1s linear both;
+    -webkit-animation: ani_1 0.4s 1.1s linear both,ani_3 0.4s 1.1s linear both;
+    animation: ani_1 0.4s 1.1s linear both,ani_3 0.4s 1.1s linear both;
+    opacity: 0;
+    z-index: 1;
+}
+
+.page1 img:nth-of-type(4) {
+    top: 14.2%;
+    left: 23.59375%;
+    width: 52.8125%;
+    height: auto;
+    -moz-animation: ani_1 0.4s 1.5s linear both,ani_3 0.4s 1.5s linear both,ani_2 3.5s 1.5s linear infinite;
+    -o-animation: ani_1 0.4s 1.5s linear both,ani_3 0.4s 1.5s linear both,ani_2 3.5 1.5s linear infinite;
+    -webkit-animation: ani_1 0.4s 1.5s linear both,ani_3 0.4s 1.5s linear both,ani_2 3.5s 1.5s linear infinite;
+    animation: ani_1 0.4s 1.5s linear both,ani_3 0.4s 1.5s linear both,ani_2 3.5s 1.5s linear infinite;
+    opacity: 0;
+}
+
+.page1 img:nth-of-type(5) {
+    width: 59.0625%;
+    height: auto;
+    top: 12.3%;
+    left: 20.46875%;
+    -moz-animation: ani_1 0.4s 1.9s linear both,ani_3 0.4s 1.9s linear both,ani_2 4s 1.9s linear infinite;
+    -o-animation: ani_1 0.4s 1.9s linear both,ani_3 0.4s 1.9s linear both,ani_2 4s 1.9s linear infinite;
+    -webkit-animation: ani_1 0.4s 1.9s linear both,ani_3 0.4s 1.9s linear both,ani_2 4s 1.9s linear infinite;
+    animation: ani_1 0.4s 1.9s linear both,ani_3 0.4s 1.9s linear both,ani_2 4s 1.9s linear infinite;
+    opacity: 0;
+}
+
+.page1 img:nth-of-type(6) {
+    width: 86.875%;
+    height: auto;
+    left: 6.5625%;
+    top: 3.3%;
+    -moz-animation: ani_1 0.4s 2.3s linear both,ani_3 0.4s 2.3s linear both,ani_2 4s 2.3s linear infinite;
+    -o-animation: ani_1 0.4s 2.3s linear both,ani_3 0.4s 2.3s linear both,ani_2 4s 2.3s linear infinite;
+    -webkit-animation: ani_1 0.4s 2.3s linear both,ani_3 0.4s 2.3s linear both,ani_2 4s 2.3s linear infinite;
+    animation: ani_1 0.8s 2.3s linear both,ani_3 0.4s 2.3s linear both,ani_2 4s 2.3s linear infinite;
+    opacity: 0;
+}
+
+.text {
+    position: absolute;
+    top: 22%;
+    left: 0;
+    font: .32rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    width: 100%;
+    z-index: 6;
+    opacity: 0;
+    -moz-animation: ani_3 0.4s 1.5s linear both;
+    -o-animation: ani_3 0.4s 1.5s linear both;
+    -webkit-animation: ani_3 0.4s 1.5s linear both;
+    animation: ani_3 0.4s 1.5s linear both;
+}
+
+    .text span {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+.hidden_mask_1 {
+    width: 0%;
+    overflow: hidden;
+    font: .24rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    position: absolute;
+    top: 57%;
+    left: 5%;
+    -moz-animation: ani_6 1.5s 3s linear both;
+    -o-animation: ani_6 1.5s 3s linear both;
+    -webkit-animation: ani_6 1.5s 3s linear both;
+    animation: ani_6 1.5s 3s linear both;
+}
+
+.text_1 {
+    width: 3.2rem;
+}
+
+.page1 img:nth-of-type(7) {
+    width: 95%;
+    height: auto;
+    top: 65.5%;
+    left: 6%;
+    -moz-animation: ani_4 3s 3s ease both;
+    -o-animation: ani_4 3s 3s ease both;
+    -webkit-animation: ani_4 3s 3s ease;
+    animation: ani_4 3s 3s ease both;
+}
+
+.hidden_mask_2 {
+    width: 0%;
+    overflow: hidden;
+    font: .16rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    position: absolute;
+    top: 66.5%;
+    left: 6%;
+    -moz-animation: ani_6 1.5s linear both;
+    -o-animation: ani_6 1.5s linear both;
+    -webkit-animation: ani_6 1.5s linear both;
+    animation: ani_6 1.5s 4.5s linear both;
+}
+
+.text_2 {
+    width: 3.2rem;
+}
+
+.page1 img:nth-of-type(8) {
+    width: 52.4375%;
+    height: auto;
+    top: 73%;
+    left: 6%;
+    -moz-animation: ani_5 1s 4s ease both,ani_3 1s 4s ease both;
+    -o-animation: ani_5 1s 4s ease both,ani_3 1s 4s ease both;
+    -webkit-animation: ani_5 1s 4s ease both,ani_3 1s 4s ease both;
+    animation: ani_5 1s 4s ease both,ani_3 1s 4s ease both;
+    opacity: 0;
+}
+
+.page1 img:nth-of-type(9) {
+    width: 6.875%;
+    height: auto;
+    top: 76%;
+    left: 47%;
+    -moz-animation: ani_2 4s 5s linear infinite,ani_3 1s 5s both;
+    -o-animation: ani_2 4s 5s linear infinite,ani_3 1s 5s both;
+    -webkit-animation: ani_2 4s 5s linear infinite,ani_3 1s 5s both;
+    animation: ani_2 4s 5s linear infinite,ani_3 1s 5s both;
+    opacity: 0;
+}
+
+.page1 img:nth-of-type(10) {
+    width: 87.8125%;
+    height: auto;
+    top: 87%;
+    left: 6.09375%;
+    -moz-animation: ani_5 1s 6s linear both,ani_3 1s 6s linear both;
+    -o-animation: ani_5 1s 6s linear both,ani_3 1s 6s linear both;
+    -webkit-animation: ani_5 1s 6s linear both,ani_3 1s 6s linear both;
+    animation: ani_5 1s 6s linear both,ani_3 1s 6s linear both;
+    opacity: 0;
+}
+
+.page1 img:nth-of-type(11) {
+    width: 1.875%;
+    height: auto;
+    top: 89%;
+    left: 37%;
+}
+
+.page1 img:nth-of-type(12) {
+    width: 1.875%;
+    height: auto;
+    top: 89%;
+    left: 62%;
+}
+
+.page1 img:nth-of-type(12), .page1 img:nth-of-type(11) {
+    opacity: 0;
+    -moz-animation: ani_3 0.5s 7s linear infinite both;
+    -o-animation: ani_3 0.5s 7s linear infinite both;
+    -webkit-animation: ani_3 0.5s 7s linear infinite both;
+    animation: ani_3 1s 7s linear infinite both;
+}
+
+.page1 img:last-of-type {
+    width: 15.625%;
+    height: auto;
+    top: 85%;
+    left: 42.1875%;
+    opacity: 0;
+    -moz-animation: ani_5 1s 8s infinite linear,ani_3 1s 8s infinite;
+    -o-animation: ani_5 1s 8s infinite linear,ani_3 1s 8s infinite;
+    -webkit-animation: ani_5 1s 8s infinite linear,ani_3 1s 8s infinite;
+    animation: ani_5 1s 8s infinite linear,ani_3 1s 8s infinite;
+}
+/*第二页*/
+.page2 img:first-of-type {
+    width: 14.6875%;
+    height: auto;
+    top: 2%;
+    left: 5%;
+    -moz-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -o-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -webkit-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    opacity: 0;
+}
+
+.none {
+    top: 3% !important;
+}
+
+.hidden_mask {
+    position: absolute;
+    top: 5%;
+    left: 7.5%;
+    width: 0%;
+    overflow: hidden;
+    font: 0.12rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    white-space: nowrap;
+    -moz-animation: ani_6 3s 1s linear both;
+    -o-animation: ani_6 3s 1s linear both;
+    -webkit-animation: ani_6 3s 1s linear both;
+    animation: ani_6 3s 1s linear both;
+}
+
+.text_3 {
+    width: 3.2rem;
+}
+
+    .text_3 > span:nth-of-type(2) {
+        font-size: .2rem;
+        padding: 0 4% 0 9%;
+    }
+
+.page2 img:nth-of-type(2) {
+    width: 100%;
+    height: auto;
+    top: 13.5%;
+    left: 6%;
+    -moz-animation: ani_4 1s 3s ease both;
+    -o-animation: ani_4 1s 3s ease both;
+    -webkit-animation: ani_4 1s 3s ease both;
+    animation: ani_4 1s 3s ease both;
+}
+
+.page2 img:nth-of-type(3) {
+    width: 31.25%;
+    height: auto;
+    top: 17%;
+    right: 13%;
+    -moz-animation: ani_7 0.7s 4s ease-in-out both;
+    -o-animation: ani_7 0.7s 4s ease-in-out both;
+    -webkit-animation: ani_7 0.7s 4s ease-in-out both;
+    animation: ani_7 0.7s 4s ease-in-out both;
+    z-index: 3;
+}
+
+.addrotateX {
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
+
+.section div {
+    /*width:0%;*/
+    overflow: hidden;
+    font-size: .12rem;
+    color: rgb(85, 202, 255);
+    letter-spacing: 0em;
+    vertical-align: baseline;
+    margin-top: 4%;
+}
+
+.page2 p {
+    width: 3.2rem;
+    white-space: nowrap;
+}
+
+.section {
+    position: absolute;
+    top: 13%;
+    left: 6%;
+    z-index: 3;
+}
+
+.hidden_mask_3 {
+    -moz-animation: ani_6 1.5s 3s linear both;
+    -o-animation: ani_6 1.5s 3s linear both;
+    -webkit-animation: ani_6 1.5s 3s linear both;
+    animation: ani_6 1.5s 3s linear both;
+}
+
+.hidden_mask_4 {
+    -moz-animation: ani_6 1.5s 3.5s linear both;
+    -o-animation: ani_6 1.5s 3.5s linear both;
+    -webkit-animation: ani_6 1.5s 3.5s linear both;
+    animation: ani_6 1.5s 3.5s linear both;
+}
+
+.hidden_mask_5 {
+    -moz-animation: ani_6 1.5s 4s linear both;
+    -o-animation: ani_6 1.5s 4s linear both;
+    -webkit-animation: ani_6 1.5s 4s linear both;
+    animation: ani_6 1.5s 4s linear both;
+}
+
+.hidden_mask_6 {
+    -moz-animation: ani_6 1.5s 4.5s linear both;
+    -o-animation: ani_6 1.5s 4.5s linear both;
+    -webkit-animation: ani_6 1.5s 4.5s linear both;
+    animation: ani_6 1.5s 4.5s linear both;
+}
+
+.hidden_mask_7 {
+    -moz-animation: ani_6 1.5s 5s linear both;
+    -o-animation: ani_6 1.5s 5s linear both;
+    -webkit-animation: ani_6 1.5s 5s linear both;
+    animation: ani_6 1.5s 5s linear both;
+}
+
+#translatemask img {
+    width: 100% !important;
+    height: 100% !important;
+    -moz-animation: ani_2 4s 3s linear infinite,ani_3 1s 3s linear both;
+    -o-animation: ani_2 4s 3s linear infinite,ani_3 1s 3s linear both;
+    -webkit-animation: ani_2 4s 3s linear infinite,ani_3 1s 3s linear both;
+    animation: ani_2 4s 3s linear infinite,ani_3 1s 3s linear both;
+    opacity: 0;
+}
+
+#translatemask {
+    width: 50.3152% !important;
+    height: auto !important;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    -moz-animation: ani_8 4s 3s linear both;
+    -o-animation: ani_8 4s 3s linear both;
+    -webkit-animation: ani_8 4s 3s linear both;
+    animation: ani_8 4s 3s linear both;
+}
+
+.page2 img:nth-of-type(4) {
+    width: 14.6875%;
+    height: auto;
+    top: 45%;
+    left: 5%;
+    -moz-animation: ani_2 5s 3.5s linear infinite,ani_1 0.5s 3.5s linear,ani_3 0.5s 3.5s linear both;
+    -o-animation: ani_2 5s 3.5s linear infinite,ani_1 0.5s 3.5s linear,ani_3 0.5s 3.5s linear both;
+    -webkit-animation: a ani_2 5s 3.5s linear infinite,ani_1 0.5s 3.5s linear,ani_3 0.5s 3.5s linear both;
+    animation: ani_2 5s 3.5s linear infinite,ani_1 0.5s 3.5s linear,ani_3 0.5s 3.5s linear both;
+    opacity: 0;
+}
+
+.hidden_mask_8 {
+    position: absolute;
+    top: 46%;
+    left: 7.5%;
+    width: 0%;
+    overflow: hidden;
+    font: 0.12rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    white-space: nowrap;
+    -moz-animation: ani_6 3s 1s 4s linear both;
+    -o-animation: ani_6 3s 1s 4s linear both;
+    -webkit-animation: ani_6 3s 4s 1s linear both;
+    animation: ani_6 3s 4s linear both;
+}
+
+.text_4 > span:nth-of-type(2) {
+    font-size: .2rem;
+    padding: 0 4% 0 9%;
+}
+
+.page2 img:nth-of-type(5) {
+    width: 100%;
+    height: auto;
+    top: 56.5%;
+    left: 6%;
+    -moz-animation: ani_4 1s 6s ease both;
+    -o-animation: ani_4 1s 6s ease both;
+    -webkit-animation: ani_4 6s 3s ease both;
+    animation: ani_4 1s 6s ease both;
+}
+
+#myevaluate {
+    position: absolute;
+    top: 59%;
+    left: 0;
+    font: 0.12rem 'Microsoft YaHei';
+    color: rgb(85, 202, 255);
+    opacity: 0;
+    -moz-animation: ani_1 2s 6.5s linear both,ani_3 2s 6.5s linear both;
+    -o-animation: ani_1 2s 6.5s linear both,ani_3 2s 6.5s linear both;
+    -webkit-animation: ani_1 2s 6.5s linear both,ani_3 2s 6.5s linear both;
+    animation: ani_1 2s 6.5s linear both,ani_3 2s 6.5s linear both;
+}
+
+    #myevaluate p {
+        width: 80%;
+        margin: 0 auto;
+        white-space: normal;
+        letter-spacing: -0.002rem;
+    }
+/*第三页*/
+.page3 img:first-of-type {
+    width: 14.6875%;
+    height: auto;
+    top: 4%;
+    left: 5%;
+    -moz-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -o-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -webkit-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    opacity: 0;
+}
+
+.page3 p {
+    white-space: nowrap;
+    width: 3.2rem;
+}
+
+.text_5 > span:nth-of-type(2) {
+    font-size: .2rem;
+    padding: 0 4% 0 9%;
+}
+
+.page3 img:nth-of-type(2) {
+    width: 100%;
+    height: auto;
+    top: 15%;
+    left: 6%;
+    -moz-animation: ani_4 1s 3s ease both;
+    -o-animation: ani_4 1s 3s ease both;
+    -webkit-animation: ani_4 1s 3s ease both;
+    animation: ani_4 1s 3s ease both;
+}
+/*图片 22px 微软雅黑*/
+.page3 img:nth-of-type(3) {
+    width: 18.125%;
+    height: auto;
+    top: 23%;
+    border-radius: 50%;
+    left: 8%;
+    z-index: 5;
+    -moz-animation: ani_10 2s 3s infinite alternate,ani_3 1s 3s both;
+    -o-animation: ani_10 2s 3s infinite alternate,ani_3 1s 3s both;
+    -webkit-animation: ani_10 2s 3s infinite alternate,ani_3 1s 3s both;
+    animation: ani_10 1s 3s infinite alternate,ani_3 1s 3s both;
+}
+/*进度条*/
+.sum {
+    width: 70%;
+    height: 4%;
+    border: 0.01rem solid orange;
+    background-color: #e6e6e6;
+    position: absolute;
+}
+
+    .sum abbr {
+        display: block;
+        width: 0%;
+        height: 100%;
+        background: orange;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+#h5 {
+    top: 26%;
+    left: 25%;
+    -moz-animation: ani_3 1s 3.5s both;
+    -o-animation: ani_3 1s 3.5s both;
+    -webkit-animation: ani_3 1s 3.5s both;
+    animation: ani_3 1s 3.5s both;
+}
+
+    #h5 abbr {
+        -moz-animation: ani_9 1.5s 4s ease-in-out both;
+        -o-animation: ani_9 1.5s 4s ease-in-out both;
+        -webkit-animation: ani_9 1.5s 4s ease-in-out both;
+        animation: ani_9 1.5s 4s ease-in-out both;
+    }
+
+.page3 img:nth-of-type(4) {
+    width: 18.125%;
+    height: auto;
+    top: 40%;
+    border-radius: 50%;
+    left: 8%;
+    z-index: 5;
+    -moz-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    -o-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    -webkit-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    animation: ani_10 1s 3.5s infinite alternate,ani_3 1s 3.5s both;
+}
+
+#c3 {
+    top: 43%;
+    left: 25%;
+    -moz-animation: ani_3 1s 3.5s both;
+    -o-animation: ani_3 1s 3.5s both;
+    -webkit-animation: ani_3 1s 3.5s both;
+    animation: ani_3 1s 3.5s both;
+}
+
+    #c3 abbr {
+        -moz-animation: ani_9 1.5s 4.5s ease-in-out both;
+        -o-animation: ani_9 1.5s 4.5s ease-in-out both;
+        -webkit-animation: ani_9 1.5s 4.5s ease-in-out both;
+        animation: ani_9 1.5s 4.5s ease-in-out both;
+    }
+
+.page3 img:nth-of-type(5) {
+    width: 18.125%;
+    height: auto;
+    top: 57%;
+    border-radius: 50%;
+    left: 8%;
+    z-index: 5;
+    -moz-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    -o-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    -webkit-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    animation: ani_10 1s 3.5s infinite alternate,ani_3 1s 3.5s both;
+}
+
+#js {
+    top: 60%;
+    left: 25%;
+    -moz-animation: ani_3 1s 3.5s both;
+    -o-animation: ani_3 1s 3.5s both;
+    -webkit-animation: ani_3 1s 3.5s both;
+    animation: ani_3 1s 3.5s both;
+}
+
+    #js abbr {
+        -moz-animation: ani_11 1.5s 5s ease-in-out both;
+        -o-animation: ani_11 1.5s 5s ease-in-out both;
+        -webkit-animation: ani_11 1.5s 5s ease-in-out both;
+        animation: ani_11 1.5s 5s ease-in-out both;
+    }
+
+.page3 img:nth-of-type(6) {
+    width: 18.125%;
+    height: auto;
+    top: 74%;
+    border-radius: 50%;
+    left: 8%;
+    z-index: 5;
+    -moz-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    -o-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    -webkit-animation: ani_10 2s 3.5s infinite alternate,ani_3 1s 3.5s both;
+    animation: ani_10 1s 3.5s infinite alternate,ani_3 1s 3.5s both;
+}
+
+#jq {
+    top: 77%;
+    left: 25%;
+    -moz-animation: ani_3 1s 3.5s both;
+    -o-animation: ani_3 1s 3.5s both;
+    -webkit-animation: ani_3 1s 3.5s both;
+    animation: ani_3 1s 3.5s both;
+}
+
+    #jq abbr {
+        -moz-animation: ani_12 1.5s 5.5s ease-in-out both;
+        -o-animation: ani_12 1.5s 5.5s ease-in-out both;
+        -webkit-animation: ani_12 1.5s 5.5s ease-in-out both;
+        animation: ani_12 1.5s 5.5s ease-in-out both;
+    }
+
+.page3 img:last-of-type {
+    width: 15.625%;
+    height: auto;
+    top: 85%;
+    left: 42.1875%;
+    opacity: 0;
+    -moz-animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+    -o-animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+    -webkit-animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+    animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+}
+/*第五页*/
+.page4 p {
+    width: 3.2rem;
+}
+
+.page4 img:first-of-type {
+    width: 14.6875%;
+    height: auto;
+    top: 4%;
+    left: 5%;
+    -moz-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -o-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -webkit-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    opacity: 0;
+}
+
+.page4 img:nth-of-type(2) {
+    width: 100%;
+    height: auto;
+    top: 15%;
+    left: 6%;
+    -moz-animation: ani_4 1s 3s ease both;
+    -o-animation: ani_4 1s 3s ease both;
+    -webkit-animation: ani_4 1s 3s ease both;
+    animation: ani_4 1s 3s ease both;
+}
+
+.ss {
+    opacity:0;
+    width: 100%;
+    text-align: center;
+    font: .24rem 'Microsoft YaHei';
+    color: rgb(85, 202, 255);
+    position: absolute;
+    top: 20%;
+    left: 0;
+    -moz-animation: ani_3 2s  5s linear infinite alternate;
+    -o-animation: ani_3 2s 5s linear infinite alternate;
+    -webkit-animation: ani_3 2s 5s linear infinite alternate;
+    animation: ani_3 2s 5s linear infinite alternate;
+}
+
+.page4 img:nth-of-type(3) {
+    width: 89.375%;
+    height: auto;
+    top: 35%;
+    left: 5%;
+    -moz-animation: ani_3 1s 2s linear both;
+    -o-animation: ani_3 1s 2s linear both;
+    -webkit-animation: ani_3 1s 2s linear both;
+    animation: ani_3 1s 4s linear both;
+    opacity:0;
+}
+
+.page4 img:nth-of-type(4) {
+    width: 10.9375%;
+    height: auto;
+    top: 37%;
+    left: 25.3%;
+    -moz-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    -o-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    -webkit-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+}
+
+.hidden_mask_9 {
+    width: 0%;
+    overflow: hidden;
+    font: .12rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    position: absolute;
+    top: 38.5%;
+    left: 5%;
+    -moz-animation: ani_6 1.5s linear both;
+    -o-animation: ani_6 1.5s linear both;
+    -webkit-animation: ani_6 1.5s linear both;
+    animation: ani_6 1.5s 4.5s linear both;
+}
+#zq{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:21%;
+    left:62.3%;
+}
+#zq img{
+    width: 20%;
+    height: auto;
+    -moz-animation: none;
+    -o-animation: none;
+    -webkit-animation: none;
+    animation: none;
+    -moz-animation: ani_3 1s 5.5s linear both;
+    -o-animation: ani_3 1s 5.5s linear both;
+    -webkit-animation: ani_3 1s 5.5s linear both;
+    animation: ani_3 1s 5.5s linear both;
+}
+#djc{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:32%;
+    left:62.3%;
+}
+#djc img{
+     width: 20%;
+    height: auto;
+    -moz-animation: none;
+    -o-animation: none;
+    -webkit-animation: none;
+    animation: none;
+    -moz-animation: ani_3 1s 5.5s linear both;
+    -o-animation: ani_3 1s 5.5s linear both;
+    -webkit-animation: ani_3 1s 5.5s linear both;
+    animation: ani_3 1s 5.5s linear both;
+}
+.page4 img:nth-of-type(5){
+    width: 89.375%;
+    height: auto;
+    top: 50%;
+    left: 5%;
+    -moz-animation: ani_3 1s 2s linear both;
+    -o-animation: ani_3 1s 2s linear both;
+    -webkit-animation: ani_3 1s 2s linear both;
+    animation: ani_3 1s 4s linear both;
+    opacity: 0;
+}
+.page4 img:nth-of-type(6){
+        width: 10.9375%;
+    height: auto;
+    top: 52%;
+    left: 25.3%;
+    -moz-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    -o-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    -webkit-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+}
+.hidden_mask_10{
+    width: 0%;
+    overflow: hidden;
+    font: .12rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    position: absolute;
+    top: 53.5%;
+    left: 5%;
+    -moz-animation: ani_6 1.5s linear both;
+    -o-animation: ani_6 1.5s linear both;
+    -webkit-animation: ani_6 1.5s linear both;
+    animation: ani_6 1.5s 4.5s linear both;
+}
+.hidden_mask_11{
+     width: 0%;
+    overflow: hidden;
+    font: .12rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    position: absolute;
+    top: 68.5%;
+    left: 5%;
+    -moz-animation: ani_6 1.5s linear both;
+    -o-animation: ani_6 1.5s linear both;
+    -webkit-animation: ani_6 1.5s linear both;
+    animation: ani_6 1.5s 4.5s linear both;
+}
+ #aq{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:48%;
+    left:62.3%;
+}
+ #aq img{
+       width: 20%;
+    height: auto;
+    -moz-animation: none;
+    -o-animation: none;
+    -webkit-animation: none;
+    animation: none;
+    -moz-animation: ani_3 1s 5.5s linear both;
+    -o-animation: ani_3 1s 5.5s linear both;
+    -webkit-animation: ani_3 1s 5.5s linear both;
+    animation: ani_3 1s 5.5s linear both;
+ }
+.page4 img:nth-of-type(7){
+    width: 89.375%;
+    height: auto;
+    top: 65%;
+    left: 5%;
+    -moz-animation: ani_3 1s 2s linear both;
+    -o-animation: ani_3 1s 2s linear both;
+    -webkit-animation: ani_3 1s 2s linear both;
+    animation: ani_3 1s 4s linear both;
+    opacity: 0;
+}
+.page4 img:nth-of-type(8){
+    width: 10.9375%;
+    height: auto;
+    top: 67%;
+    left: 25.3%;
+    -moz-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    -o-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    -webkit-animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+    animation: ani_2 5s linear infinite,ani_3 1s 5s linear both;
+}
+.page4 img:last-of-type{
+    width: 15.625%;
+    height: auto;
+    top: 85%;
+    left: 42.1875%;
+    opacity: 0;
+    -moz-animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+    -o-animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+    -webkit-animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+    animation: ani_5 1s 6s infinite linear,ani_3 1s 6s infinite;
+}
+/*第五页*/
+.page5 p{
+    width:3.2rem;
+    text-align:center;
+}
+.text_5{
+    text-align:left!important;
+}
+.page5 img:first-of-type {
+    width: 14.6875%;
+    height: auto;
+    top: 4%;
+    left: 5%;
+    -moz-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -o-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    -webkit-animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    animation: ani_2 5s 1.5s linear infinite,ani_1 0.5s 1s linear,ani_3 0.5s 1s linear both;
+    opacity: 0;
+}
+.page5 img:nth-of-type(2) {
+    width: 100%;
+    height: auto;
+    top: 15%;
+    left: 6%;
+    -moz-animation: ani_4 1s 3s ease both;
+    -o-animation: ani_4 1s 3s ease both;
+    -webkit-animation: ani_4 1s 3s ease both;
+    animation: ani_4 1s 3s ease both;
+}
+.hidden_mask_12,.hidden_mask_13{
+        width: 0%;
+    overflow: hidden;
+    font: .12rem Microsoft YaHei;
+    color: rgb(85, 202, 255);
+    position: absolute;
+    left:0;
+    
+}
+.hidden_mask_12{
+        top: 38.5%;
+    -moz-animation: ani_6 1.5s 4.5s linear both;
+    -o-animation: ani_6 1.5s 4.5s linear both;
+    -webkit-animation: ani_6 1.5s 4.5s linear both;
+    animation: ani_6 1.5s 4.5s linear both;
+}
+.hidden_mask_13{
+        top: 43.5%;
+    -moz-animation: ani_6 1.5s 5s linear both;
+    -o-animation: ani_6 1.5s 5s linear both;
+    -webkit-animation: ani_6 1.5s 5s linear both;
+    animation: ani_6 1.5s 5s linear both;
+}
+.page5 img:nth-of-type(3), .page5 img:nth-of-type(4) {
+    width: 12.8125%;
+    height: auto;
+    top: 38%;
+    -moz-animation: ani_5 1s 5.5s linear both,ani_3 1s 5.5s linear both;
+    -o-animation: ani_5 1s 5.5s linear both,ani_3 1s 5.5s linear both;
+    -webkit-animation: ani_5 1s 5.5s linear both,ani_3 1s 5.5s linear both;
+    animation: ani_5 1s 5.5s linear both,ani_3 1s 5.5s linear both;
+}
+.page5 img:nth-of-type(3){
+    left:21%;
+}
+.page5 img:nth-of-type(4){
+    left:66%;
+}
+.page5 img:nth-of-type(5), .page5 img:nth-of-type(6) {
+    width: 27.1875%;
+    height: auto;
+    top: 62.5%;
+    -moz-animation: ani_3 2s 6.5s linear infinite alternate;
+    -o-animation: ani_3 2s 6.5s linear infinite alternate;
+    -webkit-animation: ani_3 2s 6.5s linear infinite alternate;
+    animation: ani_3 2s 6.5s linear infinite alternate;
+    opacity:0;
+}
+.page5 img:nth-of-type(5){
+    left:75%;
+}
+.page5 img:last-of-type {
+    width: 32%;
+    height: 23%;
+    top: 51%;
+    left: 34%;
+    -moz-animation: ani_3 1s 5s linear both;
+    -o-animation: ani_3 1s 5s linear both;
+    -webkit-animation: ani_3 1s 5s linear both;
+    animation: ani_3 1s 5s linear both;
+    opacity:0;
+}
+.tel {
+    position: absolute;
+    top: 82%;
+    left: 25.78125%;
+    display: block;
+    width: 48.4375%;
+    height: 6%;
+    color: #3e85b4;
+    font: 0.14rem 'Microsoft YaHei';
+    text-align: center;
+    line-height: 200%;
+    text-decoration: none;
+    background: #263962;
+    border: 0.02rem solid white;
+    box-shadow: 0 0 0 0.03rem #4cd1ff;
+    -moz-animation: ani_3 1s 6.5s linear both;
+    -o-animation: ani_3 1s 6.5s linear both;
+    -webkit-animation: ani_3 1s 6.5s linear both;
+    animation: ani_3 1s 6.5s linear both;
+    opacity:0;
+}
